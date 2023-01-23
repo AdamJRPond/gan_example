@@ -56,7 +56,7 @@ To spin up the MLFlow server components, from the root of the project directory:
 ```bash
 sudo docker-compose up -d
 ```
-At this point, please set the following two environment variables so your training code knows where to send the collected tracking metrics and artifacts and provides access to S3 clone (MinIO):
+At this point, please set the following environment variables so your training code knows where to send the collected tracking metrics and artifacts and provides access to S3 clone (MinIO):
 
 ```bash
 export MLFLOW_TRACKING_URI=http://localhost:5009
